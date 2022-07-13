@@ -9,15 +9,15 @@
 // --------------------------------------------------
 .pagelevelprogress {
   &__indicator {
-    border-color: @progress-border;
+    border-color: #FFF;
   }
 
   &__indicator-inner {
-    background-color: @progress-inverted;
+    background-color: #FFF;
   }
 
   &__indicator-bar {
-    background-color: @progress;
+    background-color: #005883;
     .transition(width @progress-duration linear);
   }
 }
@@ -42,32 +42,33 @@
 // --------------------------------------------------
 .pagelevelprogress__nav-btn {
   .pagelevelprogress__indicator {
-    border-color: @nav-progress-border;
+    border-color: #FFF;
   }
 
   .pagelevelprogress__indicator-inner {
-    background-color: @nav-progress-inverted;
+    border-color: #FFF;
   }
 
   .pagelevelprogress__indicator-bar {
-    background-color: @nav-progress;
+    background-color: #005883;
   }
 
   .no-touch &:hover {
     .pagelevelprogress__indicator {
-      border-color: @nav-progress-border-hover;
+      border-color: #FFF;
       .transition(border-color @duration ease-in);
     }
 
     .pagelevelprogress__indicator-inner {
-      background-color: @nav-progress-inverted-hover;
+      border-color: #FFF;
       .transition(background-color @duration ease-in);
     }
 
     .pagelevelprogress__indicator-bar {
-      background-color: @nav-progress-hover;
+      background-color: #005883;
       .transition(background-color @duration ease-in);
     }
+    
   }
 }
 
@@ -75,30 +76,30 @@
 // --------------------------------------------------
 .pagelevelprogress__item-btn:not(.is-disabled) {
   .pagelevelprogress__indicator {
-    border-color: @drawer-progress-border;
+    border-color: #005883;
   }
 
   .pagelevelprogress__indicator-inner {
-    background-color: @drawer-progress-inverted;
+    background-color: #FFF;
   }
 
   .pagelevelprogress__indicator-bar {
-    background-color: @drawer-progress;
+    background-color: #005883;
   }
 
   .no-touch &:hover {
     .pagelevelprogress__indicator {
-      border-color: @drawer-progress-border-hover;
+      border-color: #005883;
       .transition(border-color @duration ease-in);
     }
 
     .pagelevelprogress__indicator-inner {
-      background-color: @drawer-progress-inverted-hover;
+      background-color: #FFF;
       .transition(background-color @duration ease-in);
     }
 
     .pagelevelprogress__indicator-bar {
-      background-color: @drawer-progress-hover;
+      background-color: #005883;
       .transition(background-color @duration ease-in);
     }
   }

@@ -2,14 +2,15 @@
   &__item-btn {
     display: block;
     padding: @item-padding;
-    background-color: @drawer-item;
-    border-bottom: 1px solid @drawer-item-hover;
-    color: @drawer-item-inverted;
+    background-color: #FFF;
+    border-bottom: 1px solid #005883;
+    color: #005883;
 
     .no-touch &:not(.is-disabled):not(.is-locked):hover {
-      background-color: @drawer-item-hover;
-      color: @drawer-item-inverted-hover;
-      .transition(background-color @duration ease-in, color @duration ease-in;);
+      background-color: #FFF;
+      color: #005883;
+      box-shadow: inset 0 -0.625rem 0 -0.4375rem #005883;
+      .transition(box-shadow @duration ease-in, color @duration ease-in;);
     }
   }
 
@@ -26,6 +27,7 @@
   &__item-title {
     margin-bottom: @drawer-title-margin;
     .drawer-item-title;
+    font-weight: bold;
     text-align: left;
 
     .dir-rtl & {
@@ -36,6 +38,7 @@
   &__item-body {
     margin-bottom: @drawer-body-margin;
     .drawer-item-body;
+    font-weight: bold;
     text-align: left;
 
     .dir-rtl & {

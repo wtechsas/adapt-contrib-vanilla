@@ -1,20 +1,45 @@
 .boxmenu-item {
+  width: inherit;
+  height: inherit;
+  min-width: 200px;
   &__inner {
     margin: 0 0.5rem 1rem;
-    padding: 1rem;
     background-color: @menu-item;
     color: @menu-item-inverted;
     border: 1px solid @menu-item-border-color;
-    border-radius: @item-border-radius;
+    border-radius: 40px;
+    border: none;
+    height: inherit;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 
   &__image-container {
-    margin-bottom: @menu-item-image-margin;
+    margin-bottom: 5%;
+    border-radius: 40px 40px 0 0;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    img{
+      min-width: 100%;
+      min-height: 100%;
+      width: inherit;
+      height: inherit;
+      object-fit: fill;
+    }
   }
 
   &__title {
     margin-bottom: @menu-item-title-margin;
     .menu-item-title;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 25px;
+    color: #005883;
   }
 
   &__body {

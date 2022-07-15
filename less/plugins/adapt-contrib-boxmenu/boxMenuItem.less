@@ -5,14 +5,21 @@
     padding: 1rem;
     background-color: #fff;
     color: #4D4D4D;
-    /* border: 1px solid #005883; */
-    /* border: 1px solid #d9d9d9; */
-    border-radius: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, .1);
   }
 
   &__image-container {
-    margin-bottom: @menu-item-image-margin;
+    width: 35%;
+    max-width: 260px;
+  }
+  
+  &__details {
+    width: 100%;
+    padding-left: 1rem;
   }
 
   &__title {

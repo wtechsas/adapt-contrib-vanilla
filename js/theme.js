@@ -15,6 +15,7 @@ class Theme extends Backbone.Controller {
 
   onDataReady() {
     $('html').addClass(Adapt.course.get('_courseStyle'));
+    document.querySelector('head').innerHTML += '<link rel="icon" type="image/png" href="assets/favicon.png">';
   }
 
   onPostRender(view) {

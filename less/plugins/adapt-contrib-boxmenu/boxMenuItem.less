@@ -1,45 +1,23 @@
 .boxmenu-item {
-  width: inherit;
-  height: inherit;
-  min-width: 200px;
   &__inner {
-    margin: 0 0.5rem 1rem;
-    background-color: @menu-item;
-    color: @menu-item-inverted;
-    border: 1px solid @menu-item-border-color;
-    border-radius: 40px;
-    border: none;
-    height: inherit;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 0 0.7rem 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    color: #4D4D4D;
+    /* border: 1px solid #005883; */
+    /* border: 1px solid #d9d9d9; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, .1);
   }
 
   &__image-container {
-    margin-bottom: 5%;
-    border-radius: 40px 40px 0 0;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-
-    img{
-      min-width: 100%;
-      min-height: 100%;
-      width: inherit;
-      height: inherit;
-      object-fit: fill;
-    }
+    margin-bottom: @menu-item-image-margin;
   }
 
   &__title {
     margin-bottom: @menu-item-title-margin;
     .menu-item-title;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 25px;
-    color: #005883;
   }
 
   &__body {
@@ -61,12 +39,15 @@
   }
 
   &__button {
-    background-color: @menu-item-btn-color;
-    color: @menu-item-btn-color-inverted;
+    background-color: #005883;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 50px;
+    line-height: initial;
 
     .no-touch &:not(.is-disabled):not(.is-locked):hover {
-      background-color: @menu-item-btn-color-hover;
-      color: @menu-item-btn-color-inverted-hover;
+      background-color: darken(#005883, 5%);
+      color: #ffffff;
       .transition(background-color @duration ease-in, color @duration ease-in;);
     }
   }

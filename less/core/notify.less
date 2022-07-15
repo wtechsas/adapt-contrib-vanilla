@@ -1,8 +1,17 @@
 .notify {
   &__popup {
-    background-color: @notify;
-    color: @notify-inverted;
+    // background-color: @notify;
+    // color: @notify-inverted;
     .transition(margin-top @duration, top @duration;);
+    border-radius: 10px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100%;
+    max-width: 700px;
+    background-color: #ffffff;
+    color: #4D4D4D;
+    text-align: center;
+    box-shadow: 0 0 5px #005883b5;
   }
 
   &__popup-inner {
@@ -17,6 +26,8 @@
   &__title {
     margin-bottom: @notify-title-margin;
     .notify-title;
+    color: #005883;
+    font-weight: bold;
 
     // Converted media query to use min width to sync responsive trigger with js
     // https://github.com/adaptlearning/adapt_framework/issues/2865

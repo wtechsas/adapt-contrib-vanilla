@@ -47,6 +47,12 @@
   &__marking {
     padding: @item-padding * 0.75;
     border-radius: 50%;
+    &.is-correct {
+      background-color: #28A745;
+    }
+    &.is-incorrect {
+      background-color: #DC3545;
+    }
   }
 
   .can-show-marking &__action.is-full-width,

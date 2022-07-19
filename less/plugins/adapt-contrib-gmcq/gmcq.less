@@ -6,15 +6,16 @@
   &__option {
     margin-top: @item-margin;
     padding: @item-padding / 2;
-    background-color: @item-color;
-    color: @item-color-inverted;
-    border-radius: @item-border-radius;
+    background-color: #FFF;
+    color: #005883;
+    border-radius: 60px;
+    border: 1px solid #005883;
   }
 
   .no-touch &__label:not(.is-disabled):not(.is-selected):hover &__option,
   html:not(.a11y-disable-focusoutline) &__input:focus + &__label &__option {
-    background-color: @item-color-hover;
-    color: @item-color-inverted-hover;
+    background-color: #e8f0f4;
+    color: #005883;
     .transition(background-color @duration ease-in, color @duration ease-in;);
   }
 
@@ -24,8 +25,9 @@
   }
 
   &__label.is-selected &__option {
-    background-color: @item-color-selected;
-    color: @item-color-inverted-selected;
+    background-color: #e8f0f4;
+    color: #005883;
+    font-weight: bold;
   }
 
   &__state {

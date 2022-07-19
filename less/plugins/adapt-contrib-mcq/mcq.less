@@ -1,14 +1,15 @@
 .mcq-item {
   &__label {
-    margin-bottom: @item-margin / 2;
-    background-color: @item-color;
-    color: @item-color-inverted;
-    border-radius: @item-border-radius;
+    margin-bottom: 0.7rem;
+    background-color: #FFF;
+    color: #005883;
+    box-shadow: 0 0 5px #005883b5;
+    border-radius: 50px;
 
     .no-touch &:not(.is-disabled):not(.is-selected):hover,
     html:not(.a11y-disable-focusoutline) .mcq-item__input:focus + & {
-      background-color: @item-color-hover;
-      color: @item-color-inverted-hover;
+      background-color: #e8f0f4;
+      color: #005883;
       .transition(background-color @duration ease-in, color @duration ease-in;);
     }
 
@@ -18,13 +19,14 @@
   }
 
   &__label.is-disabled {
-    background-color: @disabled;
-    color: @disabled-inverted;
+    background-color: #f6f6f6;
+    color: #005883;
   }
 
   &__label.is-selected {
-    background-color: @item-color-selected;
-    color: @item-color-inverted-selected;
+    background-color: #e8f0f4;
+    color: #005883;
+    font-weight: bold;
   }
 
   &__state {

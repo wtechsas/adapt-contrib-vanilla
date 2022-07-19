@@ -9,14 +9,25 @@
   }
 
   &__controls {
-    background-color: @item-color;
-    color: @item-color-inverted;
+    background-color: #FFF;
+    color: #005883;
+    border-radius: 50%;
+    border: 2px solid #005883;
+    box-shadow: 0 0 8px #005883b5;
 
     .no-touch &:not(.is-disabled):not(.is-locked):hover {
-      background-color: @item-color-hover;
-      color: @item-color-inverted-hover;
+      background-color: darken(#FFF, 5%);
+    color: #005883;
       .transition(background-color @duration ease-in, color @duration ease-in;);
     }
+  }
+
+  &__controls-right {
+    right: 10px;
+  }
+
+  &__controls-left {
+    left: 10px;
   }
 
   &__progress {

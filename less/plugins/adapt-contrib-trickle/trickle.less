@@ -1,4 +1,11 @@
 .trickle {
+
+  &__btn {
+    background-color: #f47920;
+    color: #FFF;
+    border-radius: 0;
+  }
+
   &__btn-icon {
     display: inline-block;
     vertical-align: middle;
@@ -8,4 +15,10 @@
     display: inline-block;
     vertical-align: middle;
   }
+}
+
+.no-touch .trickle__btn:not(.is-disabled):not(.is-locked):hover {
+  background-color: darken(#f47920, 5%);
+  color: #ffffff;
+  transition: background-color .2s ease-in,color .2s ease-in;
 }

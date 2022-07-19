@@ -1,12 +1,12 @@
 .textinput {
   &__widget.is-disabled &-item__textbox {
     background-color: @disabled;
-    border-color: @disabled;
-    color: @disabled-inverted;
+    border-color: #005883;
+    color: #005883;
   }
 
   &__widget.is-disabled &-item__icon {
-    color: @disabled-inverted;
+    color: #005883;
   }
 }
 
@@ -23,6 +23,7 @@
   &__textbox {
     padding: @item-padding (@icon-size + (@item-padding * 2)) @item-padding @item-padding;
     line-height: @body-line-height;
+    border-radius: 15px;
 
     .dir-rtl & {
       padding-left: @icon-size + (@item-padding * 2);

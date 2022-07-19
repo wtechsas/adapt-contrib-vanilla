@@ -1,0 +1,34 @@
+.btn-text {
+    background-color: #005883;
+    color: #FFF;
+    border-radius: 50px;
+}
+
+.no-touch .btn-text:not(.is-disabled):not(.is-locked):hover {
+    background-color: darken(#005883, 5%);
+    color: #ffffff;
+    transition: background-color .2s ease-in,color .2s ease-in;
+}
+
+.btn {
+    &__action {
+        background-color: #005883;
+        color: #FFF;
+    }
+    &__feedback {
+        background-color: #f47920;
+        color: #FFF;
+    }
+}
+
+.js-btn-action.btn__action:not(.is-disabled):not(.is-locked):hover {
+    background-color: darken(#005883, 5%);
+    color: #ffffff;
+    transition: background-color .2s ease-in,color .2s ease-in;
+}
+
+.js-btn-feedback.btn__feedback:not(.is-disabled):not(.is-locked):hover {
+    background-color: darken(#f47920, 5%);
+    color: #ffffff;
+    transition: background-color .2s ease-in,color .2s ease-in;
+}

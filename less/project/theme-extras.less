@@ -2,6 +2,47 @@
 // contentObject
 // --------------------------------------------------
 
+// Scroll
+/* SCROLL */
+*::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+*::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+    background: #005883;
+    border-radius: 5px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+*::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+    background: darken(#005883, 5%);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+*::-webkit-scrollbar-thumb:active,
+body::-webkit-scrollbar-thumb:active {
+    background: darken(#005883, 10%);
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+*::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+    background: #CCC;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+*::-webkit-scrollbar-track:hover,
+*::-webkit-scrollbar-track:active,
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+    background: #DDD;
+}
+
 // "_htmlClasses"
 // Hide nav back button
 // --------------------------------------------------

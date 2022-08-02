@@ -609,42 +609,42 @@
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Define el color de relleno de la barra de progreso en la sección de progreso general del curso."
+            "help": "Define el color de relleno de la barra de progreso en la sección de progreso general del Recurso."
           },
           "drawer-progress-inverted": {
             "title": "Color de fondo - barra de progreso",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Define el color de fondo de la barra de progreso en la sección de progreso general del curso."
+            "help": "Define el color de fondo de la barra de progreso en la sección de progreso general del Recurso."
           },
           "drawer-progress-border": {
             "title": "Color del borde - barra de progreso",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Define el color del borde de la barra de progreso en la sección de progreso general del curso."
+            "help": "Define el color del borde de la barra de progreso en la sección de progreso general del Recurso."
           },
           "drawer-progress-hover": {
             "title": "Color de relleno - paso del cursor - barra de progreso",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Define el color de relleno de la barra de progreso al pasar el cursor sobre esta en la sección de progreso general del curso."
+            "help": "Define el color de relleno de la barra de progreso al pasar el cursor sobre esta en la sección de progreso general del Recurso."
           },
           "drawer-progress-inverted-hover": {
             "title": "Color de fondo - paso del cursor - barra de progreso",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Define el color de fondo de la barra de progreso al pasar el cursor sobre esta en la sección de progreso general del curso."
+            "help": "Define el color de fondo de la barra de progreso al pasar el cursor sobre esta en la sección de progreso general del Recurso."
           },
           "drawer-progress-border-hover": {
             "title": "Color del borde - paso del cursor - barra de progreso",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Define el color del borde de la barra de progreso al pasar el cursor sobre esta en la sección de progreso general del curso."
+            "help": "Define el color del borde de la barra de progreso al pasar el cursor sobre esta en la sección de progreso general del Recurso."
           }
         }
       },

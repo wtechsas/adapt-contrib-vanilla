@@ -732,7 +732,7 @@
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Imagen que se usará en dispositivos móbiles"
+                      "help": "Imagen que se usará en dispositivos móviles"
                     }
                   }
                 },
@@ -877,7 +877,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Clases CSS que se usarán en dispositivos móbiles"
+                      "help": "Clases CSS que se usarán en dispositivos móviles"
                     }
                   }
                 },
@@ -915,7 +915,7 @@
                           "default": "",
                           "inputType": "Asset:image",
                           "validators": [],
-                          "help": "Imagen que se usarán en dispositivos móbiles"
+                          "help": "Imagen que se usarán en dispositivos móviles"
                         }
                       }
                     },
@@ -1113,7 +1113,7 @@
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Imagen que se usarán en dispositivos móbiles"
+                      "help": "Imagen que se usarán en dispositivos móviles"
                     }
                   }
                 },
@@ -1258,7 +1258,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Clases CSS que se usarán en dispositivos móbiles"
+                      "help": "Clases CSS que se usarán en dispositivos móviles"
                     }
                   }
                 }
@@ -1303,7 +1303,7 @@
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Imagen que se usarán en dispositivos móbiles"
+                      "help": "Imagen que se usarán en dispositivos móviles"
                     }
                   }
                 },
@@ -1488,7 +1488,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Clases CSS que se usarán en dispositivos móbiles"
+                      "help": "Clases CSS que se usarán en dispositivos móviles"
                     }
                   }
                 },

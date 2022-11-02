@@ -69,7 +69,6 @@
   // Colour overrides
   // --------------------------------------------------
   .mejs-controls {
-    top: 100%!important;
     background: none;
     background-color: #005883;
   }
@@ -291,4 +290,8 @@
   .mejs-video:not(.mejs-container-fullscreen) .mejs-controls {
     bottom: -@mejs-controls-height;
   }
+}
+
+.media__widget:not(.external-source) .mejs-controls {
+  top: 100%!important;
 }
